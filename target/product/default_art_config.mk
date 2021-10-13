@@ -66,7 +66,9 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_UPDATABLE_BOOT_JARS :=
 
 # Updatable APEX system server jars. Keep the list sorted by module names and then library names.
-PRODUCT_UPDATABLE_SYSTEM_SERVER_JARS := \
+PRODUCT_UPDATABLE_SYSTEM_SERVER_JARS :=
+
+PRODUCT_SYSTEM_SERVER_JARS_EXTRA += \
     com.android.appsearch:service-appsearch \
     com.android.media:service-media-s \
     com.android.permission:service-permission \
